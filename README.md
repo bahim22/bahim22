@@ -1,11 +1,13 @@
 
-# 👑H𝐈𝗠𝗔 DIONYSUS 𝓑𝘼𝗟𝘿É👑 🔥💫⚡️🔥💫⚡️🎓👑🃎✓✔︎
+# 👑H𝐈𝗠𝗔 DIONYSUS 𝓑𝘼𝗟𝘿É👑
 
-## _Dionysus Era Development & Design_
+![Ded](/himacard.png)
 
 ___
 
+## 🃎Dionysus Era Development & Design🃎
 ![Ded](/DedIsm.png)
+
 ___
 
 ___
@@ -37,9 +39,11 @@ ___
 	- Data Analysis
 	- Industrial Organization
 	- ML & AI
-- 📫 How to reach me: ibalde222@icloud.com
+- 📫 How to reach me:
+	- Networking: ibalde222@icloud.com
+	- Business: ibalde@isitymarket.onmicrosoft.com
 - 🎓 Education:
-- - University of Pittsburgh 2014 🎓
+ 	- University of Pittsburgh 2014 🎓
 
 ___
 
@@ -51,8 +55,8 @@ ___
 | _DioPortfo v2_     | HTML, Vanilla JS  | Final v 2     | [x] done |
 | _Inner Sity Market_ | HTML, Bootstrap, JS  | Final v 2     | [x] done |
 | _DioBlog_           |  Next.js Blog       | Dev v1.2      | [ ] done |
-| _Next-Tail_         |  Next.js Base App   | Dev v2.1      | [ ] dev  |
-| `react-portfo2`     | React SPA       | Final v 3     | [ ] dev  |
+| _Next-Tailwind_         |  Next.js E Store | Dev v2.1      | [ ] dev  |
+| `React-portfo2`     | React SPA       | Final v 3     | [ ] dev  |
 | `MERN Stack` | MongoDB + React  | Build v 2     | [ ] dev 📋 |
 | `Apollo, GraphQl, PostgreSQL Stack`  |  GraphQL + SQL  | Build v 1   | [ ] dev 📋 |
 | `MERN Stack: ISM-DED` | MongoDB + Next PWA | Build: v1     | [ ] dev 📋 |
