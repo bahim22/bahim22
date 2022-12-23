@@ -1,5 +1,9 @@
 
-# ![Ded](/DedLogo.png) 👑H𝐈𝗠𝗔 DIONYSUS BA𝗟DÉ ![Ded](/DedIsm.png)
+![Ded](/DedLogo.png) 
+
+# 👑H𝐈𝗠𝗔 DIONYSUS BA𝗟DÉ
+
+<img src="/DedIsm.png" width=800>
 
 ___
 
