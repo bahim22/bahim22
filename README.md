@@ -9,9 +9,9 @@ ___
 
 | Website  | P/IaaS | Version | Link |
 | --- | --- | --- | ----- |
-| ⚛️React Portfolio | Netlify | 5 | ✓✔︎[Hima Portfolio](https://himabalde.netlify.com) |
-| 🔭InnerSityMarket | Azure | 2.1  | ✓✔︎[ISM Landing Page](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
-| 🏁DED & ISM | Vercel | 1.2 | ✓✔︎[DED-ISM E-Store](https://ism-ded.vercel.app/) |
+| ⚛️Portfolio | Netlify | 5 | ✓✔︎[React SPA](https://himabalde.netlify.com) |
+| 🔭ISM | Azure | 2.1  | ✓✔︎[Landing Page](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
+| 🏁DED+ISM | Vercel | 1.2 | ✓✔︎[E-Store](https://ism-ded.vercel.app/) |
 
 ___
 
@@ -21,13 +21,11 @@ ___
 	 	- ReactJS
 	 	- NextJS
 			- Django
-			- APIs
-					- Rest and GraphQL
+			- APIs: Rest and GraphQL
 	- 🔥 Languages
 		- HTML, CSS, JavaScript
 		- Python
-		- Scripting
-						- Bash, Powershell
+		- Scripting: Bash, Powershell
 	- 🔥 OS | Platforms | Admin & Ops. 
 		- Windows 10, 11, Server
 		- MacOS X
@@ -45,8 +43,8 @@ ___
 
 ### ⚡️ Contact and Experience
 
-- 📫 `Business`: [Email Me](ibalde@dionysuseradev.onmicrosoft.com)
-- 🎓 `Education`: University of Pittsburgh 2014
+- 📫 `Email`: ibalde@dionysuseradev.onmicrosoft.com
+- 🎓`Education`: University of Pittsburgh 2014
 - ✨ `Position`: Desktop Support Technician
 
 ### Take a look at my _Repos_ and _Sites_ 
@@ -61,7 +59,7 @@ ___
 
 | Projects | Type| Version| Status |
 | ---- | ----- | ------ | ---- |
-| _DioPortfo v2_  | HTML, Vanilla JS  | Final v2  | done |
+| _DioPortfo_  | HTML, Vanilla JS  | Final v2  | done |
 | _Inner Sity Market_ | HTML, Bootstrap, JS  | Prod v2     | [x] deployed |
 | _DioBlog_ |  Next  Blog | Dev v2 | [ ] update |
 | _Next-Tailwind_ | Next E Store | Prod v3 | [x] deployed |
@@ -79,4 +77,4 @@ ___
 
 ___
 
-![Ded](/DedLogo.png)
+<!-- ![Ded](/DedLogo.png) -->
