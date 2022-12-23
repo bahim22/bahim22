@@ -1,69 +1,75 @@
+<img src="/himacard.png" width=800>
 
-# ![Ded](/DedLogo.png) 👑H𝐈𝗠𝗔 DIONYSUS BA𝗟DÉ ![Ded](/DedIsm.png)
-
-___
-
-## 🃎Dionysus Era Development & Design
+# 👑 H𝐈𝗠𝗔 BA𝗟DÉ | Dionysus Era 🃎 
 
 ___
 
-## Live Websites and Web Apps
+## Live Websites
 ___
-| Website     | IaaS       | Version       | Link |
-| ---------------- | ---------- | ------------ | ----- |
-| ⚛️React Portfolio | Netlify | 5 | ✓✔︎[Hima Portfolio](https://himabalde.netlify.com) |
-| 🔭InnerSityMarket | Azure | 2.1  | ✓✔︎[ISM Landing Page](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
-| 🏁DED & ISM | Vercel | 1.2 | ✓✔︎[DED-ISM E-Store](https://ism-ded.vercel.app/) |
+
+| Website  | P/IaaS | Version | Link |
+| --- | --- | --- | ----- |
+| ⚛️Portfolio | Netlify | 5 | ✓✔︎[React SPA](https://himabalde.netlify.com) |
+| 🔭ISM | Azure | 2.1  | ✓✔︎[Landing Page](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
+| 🏁DED+ISM | Vercel | 1.2 | ✓✔︎[E-Store](https://ism-ded.vercel.app/) |
+
 ___
 
 ### 💬 I’m currently working on ...
 
-	- 🔥 Projects
-	 	- Reactjs
-	 	- Nextjs
-	- 🔥 OOP Languages
-		- JavaScript
+	- 🔥 Web Dev Projects
+	 	- ReactJS
+	 	- NextJS
+			- Django
+			- APIs: Rest and GraphQL
+	- 🔥 Languages
+		- HTML, CSS, JavaScript
 		- Python
-	- 💫 APIs
-		- Rest
-		- GraphQl
-	- 💫 Data
-		- PostgreSQL
-		- MongoDB
+		- Scripting: Bash, Powershell
+	- 🔥 OS | Platforms | Admin & Ops. 
+		- Windows 10, 11, Server
+		- MacOS X
+		- Linux (Ubuntu)
+		- Azure, Microsoft 365
+	- 💫 IT certs, software and skills
 
-### ⚡️⚡️ I plan on mastering
+### ⚡️ I plan on mastering
 
-	- Data Analysis
-	- System & Operations Admin
-	- Machine Learning
-___
-
-### Contact and Experience
-
-- 📫 `Networking`: ibalde222@icloud.com 
-- 📫 `Business`: ibalde@dionysuseradev.onmicrosoft.com
-- 🎓 `Education`: University of Pittsburgh 2014
-- ✨ `Current Position`: Desktop Support Technician
-
-### I invite you to view my ✨ _Repos_ and _Sites_ ✨ & Welcome any constructive criticism.
+	- Cloud, Virtualization and DevOps
+	- Systems & Operations Admin
+	- Full Stack Web & Software Dev
 
 ___
+
+### ⚡️ Contact and Experience
+
+- 📫 `Email`: ibalde@dionysuseradev.onmicrosoft.com
+- 🎓`Education`: University of Pittsburgh 2014
+- ✨ `Position`: Desktop Support Technician
+
+### Take a look at my _Repos_ and _Sites_ 
+
+✨ Currently, my main focus is working on skills related to my career, while also developing and refactoring personal projects.
+
+___
+
+<img src="/DedIsm.png" width=800>
 
 ### Current Projects
 
-| Projects            | Type                       | Version         | Status      |
-| ------------------- | -------------------------- | ------------- | ------------- |
-| _DioPortfo v2_     | HTML, Vanilla JS  | Final v2     | done |
+| Projects | Type| Version| Status |
+| ---- | ----- | ------ | ---- |
+| _DioPortfo_  | HTML, Vanilla JS  | Final v2  | done |
 | _Inner Sity Market_ | HTML, Bootstrap, JS  | Prod v2     | [x] deployed |
-| _DioBlog_           |  Next  Blog       | Dev v2    | [ ] update |
-| _Next-Tailwind_         |  Next E Store | Prod v3     | [x] deployed  |
-| _nxt-boiler_     | Next Template      | Final v 3     | [ ] update  |
-| `Rxt-portfo-3`     | React Portfolio       |  Prod v5     | [x] deployed  |
-| `Rxt-ecrive`     | React Business Page      | Dev v 2     | [ ] dev  |
-| `react-boiler`     | React SPA Template      | Final v4     | [x] update  |
+| _DioBlog_ |  Next  Blog | Dev v2 | [ ] update |
+| _Next-Tailwind_ | Next E Store | Prod v3 | [x] deployed |
+| _nxt-boiler_ | Next Template | Final v 3| [ ] update  |
+| `Rxt-portfo-3`| React Portfolio|  Prod v5 | [x] deployed  |
+| `Rxt-ecrive`| React Business Page | Dev v 2 | [ ] dev  |
+| `react-boiler`| React SPA Template | Final v4 | [x] update  |
 | `Athena` | Node Server Temps  | Dev v3    | [x] update |
 | `GulloDb` | MongoDB + React  | Dev v3    | [ ] update 📋 |
-| `Waves-Prisma`  |  GraphQL + Next  | Dev v 2  | [ ] dev 📋 |
+| `Waves-Prisma`| GraphQL + Next  | Dev v 2  | [ ] dev 📋 |
 
 ___
 
@@ -71,4 +77,4 @@ ___
 
 ___
 
-![Ded](/himacard.png)
+<!-- ![Ded](/DedLogo.png) -->
