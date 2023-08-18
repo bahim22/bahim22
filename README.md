@@ -13,7 +13,7 @@ ___
 | --- | --- | ----- |
 | ⚛️Portfolio ➡️ Netlify | 5 | ✓✔︎[React-SPA](https://himabalde.netlify.com) |
 | 🔭ISM ➡️ Azure | 2.1  | ✓✔︎[Landing-Page](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
-| 🏁Azure+SSO ➡️ Vercel | 2 | ✓✔︎[Azure-Login-App](https://auth-react-azure.vercel.app/login) |
+| 🏁Azure+SSO ➡️ Vercel | 2 | ✓✔︎[Azure-Login-Page](https://azauthded.vercel.app/login) |
 | 🏁DED+ISM ➡️ Vercel | 1.2 | ✓✔︎[E-Commerce](https://ism-ded.vercel.app/) |
 | 💫PPU FS ➡️ Vercel | 2.1 | ✓✔︎[Ticketing-Home-Page](https://ppu-hd-fs.vercel.app/) |
 
