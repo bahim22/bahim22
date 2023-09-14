@@ -1,12 +1,19 @@
 <img src="/himacard.png" width=800>
+	
+<!--
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
-<!-- # 👑 H𝐈𝗠𝗔 BA𝗟DÉ | Dionysus Era 🃎 
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="himabalde" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/himabalde?trk=profile-badge">Hima B.</a></div>
+-->
+ 👑 H𝐈𝗠𝗔 BA𝗟DÉ | Dionysus Era 🃎 
 
 ___
 
-![Metrics](https://metrics.lecoq.io/Bahim22?template=classic&base.hireable=true&languages=1&lines=1&habits=1&activity=1&code=1&pagespeed=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=true&base.skip=false&languages=false&languages.ignored=Css&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&habits=false&habits.from=100&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&activity=false&activity.limit=5&activity.load=150&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&code=false&code.lines=12&code.load=200&code.days=3&code.visibility=all&pagespeed=false&pagespeed.url=https%3A%2F%2Fhimabalde.netlify.app%2F&pagespeed.detailed=false&pagespeed.screenshot=true&pagespeed.pwa=false&config.timezone=America%2FNew_York)
--->
+![Metrics](https://metrics.lecoq.io/Bahim22?template=classic&base.hireable=true&languages=1&lines=1&habits=1&activity=1&code=1&pagespeed=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=true&base.skip=false&languages=false&languages.ignored=Css&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=94&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=21&habits=false&habits.from=100&habits.days=114&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&activity=false&activity.limit=5&activity.load=150&activity.days=140&activity.visibility=all&activity.timestamps=false&activity.filter=all&code=false&code.lines=12&code.load=200&code.days=93&code.visibility=all&pagespeed=true&pagespeed.url=https%3A%2F%2Fhimabalde.netlify.app%2F&pagespeed.detailed=false&pagespeed.screenshot=true&pagespeed.pwa=false&config.timezone=America%2FNew_York)
+
+
 ## Live Websites
+
 ___
 
 | Website | Version | Link |
@@ -16,32 +23,26 @@ ___
 | 🏁Azure+SSO ➡️ Vercel | 2 | ✓✔︎[Azure-Login-Page](https://azauthded.vercel.app/login) |
 | 🏁DED+ISM ➡️ Vercel | 1.2 | ✓✔︎[E-Commerce](https://ism-ded.vercel.app/) |
 | 💫PPU FS ➡️ Vercel | 2.1 | ✓✔︎[Ticketing-Home-Page](https://ppu-hd-fs.vercel.app/) |
-
 ___
 
 ### 💬 I’m currently working on ...
 
-	- 🔥 Web Dev Projects
-	 	- ReactJS
-	 	- NextJS
-			- Django
-			- APIs: Rest and GraphQL
-	- 🔥 Languages
-		- HTML, CSS, JavaScript
-		- Python
-		- Scripting: Bash, PowerShell
-	- 🔥 OS | Platforms | Admin & Ops. 
-		- Windows 10, 11, Server
-		- MacOS X
-		- Linux (Ubuntu)
-		- Azure, Microsoft 365
-	- 💫 IT certs, software and skills
+	- 🔥 Web Dev ✒️ DevOps
+	 	- ReactJS, Node.JS, FastAPI, Django
+			- Containers & Virtualization
+			- API & Database Integration
+	- 🔥 Programming ✒️ Scripting
+		- JavaScript, Python
+		- Bash, PowerShell
+	- 🔥 System Admin and Automation
+		- Windows 10-11 & Server, MacOS, Linux
+		- Azure, Microsoft 365, Docker
 
 ### ⚡️ I plan on mastering
 
-	- Cloud, Virtualization and DevOps
-	- Systems & Operations Admin
-	- Full Stack Web & Software Dev
+	- Virtualization & Cloud Computing
+	- Continuous Deployment & Integration
+	- Endpoint Management
 
 ___
 
@@ -51,6 +52,7 @@ ___
 - 🎓`Education`: University of Pittsburgh 2014
 - ✨ `Position`: Desktop Support Technician @ Point Park University
 
+<!--
 ### Take a look at my _Repos_ and _Sites_ 
 
 ✨ Currently, my main focus is working on skills related to my career, while also developing and refactoring personal projects.
