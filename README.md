@@ -48,9 +48,12 @@ ___
 
 ### ⚡️ Contact and Experience
 
-- 📫 `Email`: ibalde@dionysuseradev.onmicrosoft.com
-- 🎓`Education`: University of Pittsburgh 2014
-- ✨ `Position`: Desktop Support Technician @ Point Park University
+- 📫 `Email`:
+    - ibalde@dionysuseradev.onmicrosoft.com
+- 🎓`Education`:
+    - University of Pittsburgh 2014
+- ✨ `Position`:
+    - Endpoint System Administrator
 
 <!--
 ### Take a look at my _Repos_ and _Sites_ 
