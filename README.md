@@ -7,7 +7,11 @@
 
 <br>
 
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
+[![Metrics](https://github.com/bahim22/bahim22/actions/workflows/metrics.yml/badge.svg?branch=bahim22-patch-2)](https://github.com/bahim22/bahim22/actions/workflows/metrics.yml)
+
+<img align="center" src="/github-metrics.svg" alt="Metrics" width="400" max-width="100%">
+
+<br>
 
 ## Recent Projects
 
@@ -23,7 +27,7 @@ ___
 
 <br/>
 
-### 💬 I’m currently working on ...
+## 💬 I’m currently working on 📜
 
 - 🔥 System Admin ✒️ Automation
     - OS & App Deploy. & Mgmt.
@@ -37,7 +41,7 @@ ___
  	- API & DBMS, Cloud Development
  	- ReactJS, Node.JS, FastAPI, Django
 
-### ⚡️ I plan on mastering
+## ⚡️ I plan on mastering
 
 	- Virtualization & Cloud Computing
 	- CI/CD, DevOps, Automation
@@ -45,7 +49,7 @@ ___
 
 <br>
 
-<h3> ⚡️ Contact and Experience </h3>
+<h2> ⚡️ Contact and Experience </h2>
 
 <div margin="auto">
 	<ul>
@@ -75,9 +79,11 @@ ___
 		</td>
 	</tr>
 </table>
+
 <div>
   <img src="/himacard.png" height="60%" width="100%" max-width="100%">
 </div>
+
 <!-- <div>
 	<img src="/DedLogo.png" height="60%" width="100%" max-width="100%">
 </div> -->
