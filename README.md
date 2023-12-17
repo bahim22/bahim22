@@ -11,8 +11,6 @@
 
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="400" max-width="100%">
 
-<br>
-
 ## Recent Projects
 
 ___
