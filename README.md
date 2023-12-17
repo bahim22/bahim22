@@ -25,7 +25,7 @@ ___
 
 <br/>
 
-### 💬 I’m currently working on ...
+## 💬 I’m currently working on 📜
 
 - 🔥 System Admin ✒️ Automation
     - OS & App Deploy. & Mgmt.
@@ -39,7 +39,7 @@ ___
  	- API & DBMS, Cloud Development
  	- ReactJS, Node.JS, FastAPI, Django
 
-### ⚡️ I plan on mastering
+## ⚡️ I plan on mastering
 
 	- Virtualization & Cloud Computing
 	- CI/CD, DevOps, Automation
@@ -47,7 +47,7 @@ ___
 
 <br>
 
-<h3> ⚡️ Contact and Experience </h3>
+<h2> ⚡️ Contact and Experience </h2>
 
 <div margin="auto">
 	<ul>
@@ -79,5 +79,9 @@ ___
 </table>
 
 <div>
-	<img src="/DedLogo.png" height="60%" width="100%" max-width="100%">
+  <img src="/himacard.png" height="60%" width="100%" max-width="100%">
 </div>
+
+<!-- <div>
+	<img src="/DedLogo.png" height="60%" width="100%" max-width="100%">
+</div> -->
