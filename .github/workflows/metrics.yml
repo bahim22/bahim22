@@ -1,20 +1,48 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name: Metrics
+# Visit https://github.com/lowlighter/metrics#-documentation
+# https://github.com/lowlighter/metrics/blob/master/source/plugins/core/README.md#-configuring-output-action
+name: Metrics Workflow
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "15 */12 * * *"}]
+  schedule: [{cron: "50 */1 * * 4-0"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push: {branches: ["master", "bahim22-patch-2"]}
+  push: {branches: ["master", "bahim22-patch-*"]}
+  pull_request:
+    branches:
+    - master
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
+      # use output_action: pull-request to make the action open a new pull request |
+      # and push changes from the same run on it. #
+      #- uses: lowlighter/metrics@latest
+       # with:
+        #  filename: my-metrics-0.svg
+         # output_action: pull-request
+     # - uses: lowlighter/metrics@latest
+       # with:
+        #  filename: my-metrics-1.svg
+         # output_action: pull-request-merge
+      # Use output_action: commit to make the action directly push changes to committer_branch with a commit.
+      # push output to metrics-renders branch rather than the default branch
       - uses: lowlighter/metrics@latest
         with:
+          output_action: commit
+          committer_branch: metrics-renders
+          committer_message: "cron scheduleed: update metrics"
           token: ${{ secrets.METRICS_TOKEN }}
+          # retry render $ output action <= 3 (wait 2.5 m between each fail)
+          retries: 3
+          retries_delay: 150
+          retries_output_action: 3
+          retries_delay_output_action: 150
+          optimize: css, xml # svg
+          # experimental_features: --optimize-svg
           # Options
           user: Bahim22
           template: classic
@@ -22,7 +50,7 @@ jobs:
           base_indepth: yes
           commits_authoring: .user/.login
           config_octicon: yes
-          config_presets: https://raw.githubusercontent.com/lowlighter/metrics/presets/lunar-red/preset.yaml
+          config_presets: "@lunar-red"
           config_timezone: America/New_York
           plugin_code: yes
           plugin_code_days: 500
@@ -51,6 +79,7 @@ jobs:
           plugin_lines_history_limit: 2
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED }}
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
@@ -78,3 +107,11 @@ jobs:
             }
           plugin_skyline_year: 2023
           repositories_batch: 25
+          config_padding: 0, 10 + 8%
+          # base: header
+          #  extras_js: |
+                # document.querySelectorAll("h2")?.forEach(h2 => h2.remove())
+             #extras_css: |
+             #  h2 {
+                 #color: red;
+              #    }
