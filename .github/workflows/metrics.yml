@@ -16,6 +16,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           output_action: pull-request
+          filename: metrics1.svg
           committer_message: "Scheduled: update metrics"
           token: ${{ secrets.METRICS_TOKEN }}
           clean_workflows: timed-out, cancelled
@@ -30,7 +31,7 @@ jobs:
           config_timezone: America/New_York
           plugin_code: yes
           plugin_code_days: 365
-          plugin_code_languages: javascript, typescript, python, Jupyter Notebook, shell, Bash, html, xml, Markdown, powershell
+          plugin_code_languages: javascript, typescript, python, Jupyter Notebook, shell, Bash, HTML, Markdown, powershell, json
           plugin_code_lines: 12
           plugin_code_load: 50
           plugin_code_visibility: public
@@ -52,23 +53,23 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
-          plugin_lines_history_limit: 4
-          plugin_lines_repositories_limit: 6
+          plugin_lines_history_limit: 6
+          plugin_lines_repositories_limit: 8
           plugin_lines_sections: base
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: "https://ppu-hd-fs.vercel.app"
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: header
-          plugin_screenshot_title: Screenshot
-          plugin_screenshot_url: "https://happy-ocean-0d2a3c60f.azurestaticapps.net/"
-          plugin_screenshot_viewport: | 
-            {
-            "width": 640, "height": 640 
-            }
-          plugin_screenshot_wait: 3000
           repositories_batch: 25
+          #plugin_screenshot: yes
+          #plugin_screenshot_background: yes
+          #plugin_screenshot_mode: image
+          #plugin_screenshot_selector: body
+          #plugin_screenshot_title: Screenshot
+          #plugin_screenshot_url: "https://happy-ocean-0d2a3c60f.azurestaticapps.net/"
+          #plugin_screenshot_viewport: | 
+            #{
+            #"width": 640, "height": 640 
+            #}
+          #plugin_screenshot_wait: 3000
