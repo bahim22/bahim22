@@ -8,7 +8,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     environment: 
-      name: production
+      name: development
     permissions:
       contents: write
       pull-requests: write
@@ -68,7 +68,7 @@ jobs:
           plugin_screenshot: yes
           plugin_screenshot_background: yes
           plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
+          plugin_screenshot_selector: header
           plugin_screenshot_title: Screenshot
           plugin_screenshot_url: "https://happy-ocean-0d2a3c60f.azurestaticapps.net/"
           plugin_screenshot_viewport: | 
