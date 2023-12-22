@@ -2,8 +2,10 @@ name: Metrics
 on:
   schedule: [{cron: "15 */4 * * *"}]
   workflow_dispatch:
-  push: {branches: ["master", "bahim22-patch-*"]}
-  pull_request: {branches: ["bahim22-patch-1", "bahim22-pr-2"]}
+  # push: {branches: ["master", "bahim22-patch-*"]}
+  # pull_request: {branches: ["bahim22-patch-1", "bahim22-pr-2"]}
+  # push: { branches: "master" }
+  # pull_request: {branches: ["bahim22-patch-1", "bahim22-pr-2"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -45,7 +47,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_ignored: scss, less
           plugin_languages_indepth: yes
-          plugin_languages_indepth_custom: Bahim22/work, bahim22/engage-flower
+          plugin_languages_indepth_custom: Bahim22/work, bahim22/engage_flower
           plugin_languages_limit: 10
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
