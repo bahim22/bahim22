@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "15 */2 * * *"}]
+  schedule: [{cron: "15 */4 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "bahim22-patch-*"]}
   pull_request: {branches: ["bahim22-patch-1", "bahim22-pr-2"]}
@@ -16,10 +16,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           output_action: pull-request
-          committer_message: "update dev to prod w/ working changes in dev container codespace"
+          committer_message: "Scheduled: update metrics"
           token: ${{ secrets.METRICS_TOKEN }}
           clean_workflows: timed-out, cancelled
-          optimize: css, xml svg
+          optimize: css, xml, svg
           user: Bahim22
           template: classic
           base: header, activity, repositories, metadata
@@ -30,7 +30,7 @@ jobs:
           config_timezone: America/New_York
           plugin_code: yes
           plugin_code_days: 365
-          plugin_code_languages: javaScript, typescript, python, Jupyter Notebook, shell, Bash, html, jsx, xml, Markdown, powershell
+          plugin_code_languages: javascript, typescript, python, Jupyter Notebook, shell, Bash, html, xml, Markdown, powershell
           plugin_code_lines: 12
           plugin_code_load: 50
           plugin_code_visibility: public
@@ -60,11 +60,6 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: "https://ppu-hd-fs.vercel.app"
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: "https://himabalde.netlify.app"
           plugin_screenshot: yes
           plugin_screenshot_background: yes
           plugin_screenshot_mode: image
