@@ -1,9 +1,6 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  # schedule: [{cron: "22 */6 * * 4-0"}]
   schedule: [{cron: "15 */2 * * *"}]
-  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "bahim22-patch-*"]}
   pull_request: {branches: ["bahim22-patch-1", "bahim22-pr-2"]}
@@ -11,66 +8,49 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     environment: 
-      name: production
+      name: development
     permissions:
       contents: write
       pull-requests: write
     steps:
-      # use output_action: pull-request to make the action open a new pull request |
-      # and push changes from the same run on it. #
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: my-metrics-0.svg
-          output_action: pull-request
-          token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: my-metrics-1.svg
-          output_action: pull-request-merge
-          token: ${{ secrets.METRICS_TOKEN }}
-      # Use output_action: commit to make the action directly push changes to committer_branch with a commit.
-      # push output to metrics-renders branch rather than the default branch
       - uses: lowlighter/metrics@latest
         with:
           output_action: pull-request
           # committer_branch: bahim22-patch-1
           committer_message: "cron scheduled: update metrics"
           token: ${{ secrets.METRICS_TOKEN }}
-          # retry render $ output action <= 3 (wait 2.5 m between each fail)
           clean_workflows: timed-out, cancelled
           retries: 0
           retries_delay: 150
           retries_output_action: 0
           retries_delay_output_action: 150
           optimize: css, xml # svg
-          # experimental_features: --optimize-svg
-          # Options
           user: Bahim22
           template: classic
           base: header, activity, repositories, metadata
           base_indepth: yes
-          commits_authoring: bahim22
+          commits_authoring: bahim22, Dionysus, Hima Dionysus Balde
           config_octicon: yes
           config_presets: "@lunar-red"
           config_timezone: America/New_York
           plugin_code: yes
           plugin_code_days: 365
-          plugin_code_languages: javaScript, python, Jupyter Notebook, Bash, Markdown, powershell
+          plugin_code_languages: javaScript, typescript, python, Jupyter Notebook, shell, Bash, Markdown, powershell
           plugin_code_lines: 12
           plugin_code_load: 50
           plugin_code_visibility: public
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_analysis_timeout_repositories: 10
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_details: bytes-size, percentage
           plugin_languages_ignored: scss, less
           plugin_languages_indepth: yes
           plugin_languages_indepth_custom: Bahim22/work, bahim22/engage-flower
-          plugin_languages_limit: 8
+          plugin_languages_limit: 10
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_load: 300
@@ -88,16 +68,16 @@ jobs:
           plugin_screenshot: yes
           plugin_screenshot_background: yes
           plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
+          plugin_screenshot_selector: header
           plugin_screenshot_title: Screenshot
           plugin_screenshot_url: "https://himabalde.netlify.app"
           plugin_screenshot_viewport: | 
             {
-            "width": 1280, "height": 1280 
+            "width": 640, "height": 640 
             }
           plugin_screenshot_wait: 2000
-          plugin_skyline: no
-          plugin_skyline_frames: 60
+          plugin_skyline: yes
+          plugin_skyline_frames: 120
           plugin_skyline_quality: 0.75
           plugin_skyline_settings: | 
             { 
@@ -108,11 +88,3 @@ jobs:
             }
           plugin_skyline_year: 2023
           repositories_batch: 25
-          # config_padding: 0, 10 + 8%
-          # base: header
-          #  extras_js: |
-                # document.querySelectorAll("h2")?.forEach(h2 => h2.remove())
-             #extras_css: |
-             #  h2 {
-                 #color: red;
-              #    }
