@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          output_action: pull-request
-          filename: metrics1.svg
-          committer_message: "PR Scheduled: update metrics"
-          committer_branch: metrics-renders
+          #output_action: pull-request
+          #filename: metrics1.svg
+          #committer_message: "PR Scheduled: update metrics"
+          #committer_branch: metrics-renders
           token: ${{ secrets.METRICS_TOKEN }}
           #output_action: pull-request-merge
           clean_workflows: timed-out, cancelled
@@ -64,12 +64,10 @@ jobs:
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: "https://ppu-hd-fs.vercel.app"
           repositories_batch: 25
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: my-metrics-1.svg
-          output_action: pull-request-merge
-          committer_message: "PR-Merge Scheduled: update metrics"
-          committer_branch: metrics-renders
+          output_action: commit
+          filename: metrics2.svg
+          committer_branch: metrics_commit
+          committer_message: "chore: update metrics"
           #plugin_screenshot: yes
           #plugin_screenshot_background: yes
           #plugin_screenshot_mode: image
