@@ -75,7 +75,7 @@ jobs:
           #plugin_screenshot_title: Screenshot
           #plugin_screenshot_url: "https://happy-ocean-0d2a3c60f.azurestaticapps.net/"
           #plugin_screenshot_viewport: | 
-            #{
-            #"width": 640, "height": 640 
-            #}
+            # {
+            # "width": 640, "height": 640 
+            # }
           #plugin_screenshot_wait: 3000
