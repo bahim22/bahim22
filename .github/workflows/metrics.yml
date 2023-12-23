@@ -18,6 +18,7 @@ jobs:
           output_action: pull-request
           filename: metrics1.svg
           committer_message: "PR Scheduled: update metrics"
+          committer_branch: metrics-renders
           token: ${{ secrets.METRICS_TOKEN }}
           #output_action: pull-request-merge
           clean_workflows: timed-out, cancelled
@@ -68,6 +69,7 @@ jobs:
           filename: my-metrics-1.svg
           output_action: pull-request-merge
           committer_message: "PR-Merge Scheduled: update metrics"
+          committer_branch: metrics-renders
           #plugin_screenshot: yes
           #plugin_screenshot_background: yes
           #plugin_screenshot_mode: image
