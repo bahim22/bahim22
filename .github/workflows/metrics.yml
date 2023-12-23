@@ -1,16 +1,14 @@
 name: Metrics
 on:
-  schedule: [{cron: "15 */4 * * *"}]
+  schedule: [{cron: "15 */12 * * *"}]
   workflow_dispatch:
   # push: {branches: ["master", "bahim22-patch-*"]}
-  # pull_request: {branches: ["bahim22-patch-1", "bahim22-pr-2"]}
-  # push: { branches: "master" }
   # pull_request: {branches: ["bahim22-patch-1", "bahim22-pr-2"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     environment: 
-      name: development
+      name: Dev1
     permissions:
       contents: write
       pull-requests: write
@@ -19,8 +17,9 @@ jobs:
         with:
           output_action: pull-request
           filename: metrics1.svg
-          committer_message: "Scheduled: update metrics"
+          committer_message: "PR Scheduled: update metrics"
           token: ${{ secrets.METRICS_TOKEN }}
+          #output_action: pull-request-merge
           clean_workflows: timed-out, cancelled
           optimize: css, xml, svg
           user: Bahim22
@@ -32,7 +31,7 @@ jobs:
           config_presets: "@lunar-red"
           config_timezone: America/New_York
           plugin_code: yes
-          plugin_code_days: 365
+          plugin_code_days: 180
           plugin_code_languages: javascript, typescript, python, Jupyter Notebook, shell, Bash, HTML, Markdown, powershell, json
           plugin_code_lines: 12
           plugin_code_load: 50
@@ -51,7 +50,7 @@ jobs:
           plugin_languages_limit: 10
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_load: 300
+          plugin_languages_recent_load: 100
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
@@ -64,6 +63,11 @@ jobs:
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: "https://ppu-hd-fs.vercel.app"
           repositories_batch: 25
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: my-metrics-1.svg
+          output_action: pull-request-merge
+          committer_message: "PR-Merge Scheduled: update metrics"
           #plugin_screenshot: yes
           #plugin_screenshot_background: yes
           #plugin_screenshot_mode: image
