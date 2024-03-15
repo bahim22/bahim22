@@ -26,28 +26,6 @@ ___
 | Online Store| Vercel | ✓[E-Comm](https://ism-ded.vercel.app/) |
 | PPU FS| Vercel | ✓[TicketSys](https://ppu-hd-fs.vercel.app/) |
 
-<br/>
-
-## 💬 I’m currently working on 📜
-
-- 🔥 System Admin ✒️ Automation
-    - OS & App Deploy. & Mgmt.
-    - MDM, CMS, Jamf Pro, Intune
-	- Virtual & Dev. Environments
- 	- Monitering, Migration, Compliance
-	- Azure, Microsoft 365, AWS
-- 🔥 Programming ✒️ Scripting
-	- Python, Javascript, AppleScript
-	- Bash, PowerShell, XML, ...
- 	- API & DBMS, Cloud Development
- 	- ReactJS, Node.JS, FastAPI, Django
-
-## ⚡️ I plan on mastering
-
-	- Virtualization & Cloud Computing
-	- CI/CD, DevOps, Automation
-	- System Admin, Integration, Security
-
 <br>
 
 <h2> ⚡️ Contact and Experience </h2>
@@ -84,7 +62,3 @@ ___
 <div>
   <img src="/himacard.png" height="60%" width="100%" max-width="100%">
 </div>
-
-<!-- <div>
-	<img src="/DedLogo.png" height="60%" width="100%" max-width="100%">
-</div> -->
