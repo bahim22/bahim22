@@ -1,10 +1,9 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 8 * * 6,0"}]
-# ****** <cmd> 2>&1; @weekly 0 0 * * 0
+  schedule: [{cron: "0 8 * * 6"}]
   workflow_dispatch:
-    push: {branches: ["master", "bahim22-patch-*"]}
-    pull_request: {branches: ["bahim22-patch-*", "bahim22-pr-*"]}
+  push: {branches: ["master", "bahim22-patch-*"]}
+  pull_request: {branches: ["bahim22-patch-*", "bahim22-pr-*"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -46,7 +45,6 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_ignored: scss, less
           plugin_languages_indepth: yes
-          plugin_languages_indepth_custom: Bahim22/work, bahim22/engage_flower
           plugin_languages_limit: 10
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
@@ -54,8 +52,8 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
-          plugin_lines_history_limit: 6
-          plugin_lines_repositories_limit: 8
+          plugin_lines_history_limit: 10
+          plugin_lines_repositories_limit: 10
           plugin_lines_sections: base
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed: yes
@@ -63,12 +61,3 @@ jobs:
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: "https://ppu-hd-fs.vercel.app"
           repositories_batch: 25
-          #plugin_screenshot: yes
-          #plugin_screenshot_background: yes
-          #plugin_screenshot_mode: image
-          #plugin_screenshot_selector: body
-          #plugin_screenshot_title: Screenshot
-          #plugin_screenshot_url: "https://happy-ocean-0d2a3c60f.azurestaticapps.net/"
-          #plugin_screenshot_viewport: | 
-            # { "width": 640, "height": 640 }
-          #plugin_screenshot_wait: 3000
