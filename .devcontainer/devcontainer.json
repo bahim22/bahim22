@@ -1,1 +1,38 @@
-// {"image":"mcr.microsoft.com/devcontainers/universal:2"}
+{
+    "name": "Base GitHub Profile Container",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    // "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "features": {
+        "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
+        "ghcr.io/devcontainers-contrib/features/bash-command:1": {},
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/sshd:1": {},
+        "ghcr.io/akhildevelops/devcontainer-features/apt": {},
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {}
+    },
+    "forwardPorts": [3000, 7222],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "formulahendry.code-runner",
+                "GitHub.github-vscode-theme",
+                "shakram02.bash-beautify",
+                "rogalmic.bash-debug",
+                "mads-hartmann.bash-ide-vscode"
+            ]
+        }
+    },
+    "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
+    "postCreateCommand": [
+        "ls -la",
+        "hostname",
+        "echo $SHELL",
+        "uname -a",
+        "apt-get update -y",
+        "apt-get upgrade -y"
+    ]
+}
