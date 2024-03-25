@@ -14,7 +14,7 @@
 
 <!-- # <img align="center" src="/metrics1.svg" alt="Metrics" width="400" max-width="100%"> -->
 
-<img align="center" src="/metrics2.svg" alt="Metrics" width="400" max-width="100%">
+<img align="center" src="/metrics1.svg" alt="Metrics" width="400" max-width="100%">
 
 ## Recent Projects
 
