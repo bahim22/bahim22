@@ -2,7 +2,7 @@ name: Metrics
 on:
   schedule: [{cron: "0 8 * * 6"}]
   workflow_dispatch:
-  push: {branches: ["master", "bahim22-patch-*"]}
+  # push: {branches: ["master", "bahim22-patch-*"]}
   # pull_request: {branches: ["bahim22-patch-*", "bahim22-pr-*"]}
 jobs:
   github-metrics:
@@ -11,53 +11,63 @@ jobs:
       name: production
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          output_action: pull-request
-          filename: metrics1.svg
-          committer_message: "Scheduled: update metrics"
+          output_action: commit
+          committer_branch: bahim22-patch-2
           token: ${{ secrets.METRICS_TOKEN }}
-          clean_workflows: timed-out, cancelled
+          retries: 1
+          retries_delay: 240
+          retries_output_action: 1
+          retries_delay_output_action: 120
+          clean_workflows: timed-out, cancelled, skipped, startup_failure
+          config_animations: yes
+          config_output: svg
+          output_condition: data-changed
+          use_prebuilt_image: yes
           optimize: css, xml, svg
+          experimental_features: --optimize-svg
           user: Bahim22
           template: classic
           base: header, activity, repositories, metadata
           base_indepth: yes
-          commits_authoring: bahim22, Dionysus, Hima Dionysus Balde, 78245175+bahim22@users.noreply.github.com
+          commits_authoring: bahim22, Dionysus, Hima Balde, Hima Dionysus Balde, 78245175+bahim22@users.noreply.github.com
           config_octicon: yes
           config_presets: "@lunar-red"
           config_timezone: America/New_York
+          plugin_introduction: yes
           plugin_code: yes
-          plugin_code_days: 365
+          plugin_code_days: 15
           plugin_code_languages: javascript, typescript, python, shell, Bash, HTML, Markdown, powershell, json, XML
           plugin_code_lines: 12
-          plugin_code_load: 50
-          plugin_code_visibility: public
+          plugin_code_load: 300
+          plugin_code_visibility: all
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 20
-          plugin_languages_categories: markup, programming
+          plugin_languages_analysis_timeout_repositories: 5
+          plugin_languages_categories: markup, programming, data, prose
           plugin_languages_colors: github
-          plugin_languages_details: bytes-size, percentage
           plugin_languages_ignored: scss, less
-          plugin_languages_indepth: yes
           plugin_languages_limit: 15
           plugin_languages_other: yes
-          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming, data, prose
           plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
-          plugin_lines_history_limit: 15
-          plugin_lines_repositories_limit: 10
-          plugin_lines_sections: base
+          plugin_lines_delay: 30
+          plugin_lines_history_limit: 2
+          plugin_lines_repositories_limit: 5
+          plugin_lines_sections: base, repositories, history
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: "https://ppu-hd-fs.vercel.app"
           repositories_batch: 25
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_visibility: all
