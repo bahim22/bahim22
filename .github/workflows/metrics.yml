@@ -16,6 +16,7 @@ jobs:
         with:
           output_action: commit
           committer_branch: bahim22-patch-2
+          filename: metrics24.svg
           token: ${{ secrets.METRICS_TOKEN }}
           retries: 1
           retries_delay: 240
@@ -68,6 +69,7 @@ jobs:
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: "https://ppu-hd-fs.vercel.app"
           repositories_batch: 25
+          repositories: 25
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_visibility: all
