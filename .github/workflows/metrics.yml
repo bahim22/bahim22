@@ -2,7 +2,7 @@ name: Metrics
 on:
   workflow_dispatch:
   # push: {branches: ["master", "bahim22-patch-*"]}
-  # pull_request: {branches: ["bahim22-patch-*", "bahim22-pr-*"]}
+  # pull_request: {branches: "bahim22-patch-3"}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
         with:
           output_action: commit
           committer_branch: bahim22-patch-3
-          filename: metrics2.svg
+          filename: metrics24.svg
           token: ${{ secrets.METRICS_TOKEN }}
           retries: 1
           retries_delay: 240
