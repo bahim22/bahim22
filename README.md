@@ -22,11 +22,12 @@ ___
 
 | ⚛️ Site | 🔭 Platform | 🏁 Link |
 | :--- | :---: | :---- |
-| Portfolio | Netlify | ✓[ReactSPA](https://himabalde.netlify.com) |
-| ISM| Azure | ✓[HomePage](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
+| Portfolio | Netlify | ✓[ReactSPA](https://himabalde.netlify.app) |
+| ISM | Azure | ✓[HomePage](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
 | Azure+MS| Vercel | ✓[LoginPage](https://azauthded.vercel.app/login) |
 | Online Store| Vercel | ✓[E-Comm](https://ism-ded.vercel.app/) |
-| PPU FS| Vercel | ✓[TicketSys](https://ppu-hd-fs.vercel.app/) |
+| PPU FS | Vercel | ✓[TicketSys](https://ppu-hd-fs.vercel.app/) |
+| MUI Landing Page | Vercel | ✓[ISV](https://infinitesuccessvirtual.vercel.app/)
 
 <br>
 
