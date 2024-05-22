@@ -16,7 +16,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           output_action: pull-request
-          filename: metrics1.svg
+          # filename: metrics1.svg
           committer_message: "Scheduled: update metrics"
           token: ${{ secrets.METRICS_TOKEN }}
           clean_workflows: timed-out, cancelled
