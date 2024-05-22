@@ -22,7 +22,7 @@ ___
 
 | ⚛️ Site | 🔭 Platform | 🏁 Link |
 | :--- | :---: | :---- |
-| Portfolio | Netlify | ✓[ReactSPA](https://himabalde.netlify.com) |
+| Portfolio | Netlify | ✓[ReactSPA](https://himabalde.netlify.app) |
 | ISM| Azure | ✓[HomePage](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
 | Azure+MS| Vercel | ✓[LoginPage](https://azauthded.vercel.app/login) |
 | Online Store| Vercel | ✓[E-Comm](https://ism-ded.vercel.app/) |
