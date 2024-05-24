@@ -27,7 +27,7 @@ ___
 | Azure+MS| Vercel | ✓[LoginPage](https://azauthded.vercel.app/login) |
 | Online Store| Vercel | ✓[E-Comm](https://ism-ded.vercel.app/) |
 | PPU FS | Vercel | ✓[TicketSys](https://ppu-hd-fs.vercel.app/) |
-| MUI Landing Page | Vercel | ✓[ISV](https://infinitesuccessvirtual.vercel.app/)
+| MUI Landing Page | Vercel | ✓[ISV](https://infinitesuccessvirtual.vercel.app/) |
 
 <br>
 
