@@ -1,18 +1,14 @@
 
 <header>
 <h2 text-align="center">
-	👑 <strong> H𝐈𝗠𝗔 BA𝗟DÉ </strong> 
+ <strong> HIMA BALDÉ </strong> 
 </h2>
 </header>
-
-<br>
 
 <!-- # [![Metrics](https://github.com/bahim22/bahim22/actions/workflows/metrics.yml/badge.svg?branch=bahim22-patch-2)](https://github.com/bahim22/bahim22/actions/workflows/metrics.yml)
 
 # <img align="center" src="/github-metrics.svg" alt="Metrics" width="400" max-width="100%">
 -->
-
-<!-- # <img align="center" src="/metrics1.svg" alt="Metrics" width="400" max-width="100%"> -->
 
 <img align="center" src="/metrics1.svg" alt="Metrics" width="400" max-width="100%">
 
@@ -22,46 +18,8 @@ ___
 
 | ⚛️ Site | 🔭 Platform | 🏁 Link |
 | :--- | :---: | :---- |
-| Portfolio | Netlify | ✓[ReactSPA](https://himabalde.netlify.app) |
-| ISM | Azure | ✓[HomePage](https://happy-ocean-0d2a3c60f.azurestaticapps.net) |
-| Azure+MS| Vercel | ✓[LoginPage](https://azauthded.vercel.app/login) |
-| Online Store| Vercel | ✓[E-Comm](https://ism-ded.vercel.app/) |
-| PPU FS | Vercel | ✓[TicketSys](https://ppu-hd-fs.vercel.app/) |
-| MUI Landing Page | Vercel | ✓[ISV](https://infinitesuccessvirtual.vercel.app/) |
-
-<br>
-
-<h2> ⚡️ Contact and Experience </h2>
-
-<div margin="auto">
-	<ul>
-		<li>
-			<a href="mailto:IBalde@DionysusEraDev.OnMicrosoft.com">Email 📫
-			</a>
-		</li>
-		<li>
-			<a href="https://www.linkedin.com/in/himabalde?trk=profile-badge">LinkedIn 🗝
-			</a>
-		</li>
-</div>
-
-<br>
-
-<table>
-	<tr>
-		<th> Education 🎓 </th>
-		<th> Current Role ✨ </th>
-	</tr>
-	<tr>
-		<td>
-			University of Pittsburgh
-		</td>
-		<td>
-			Endpoint System Administrator
-		</td>
-	</tr>
-</table>
-
-<div>
-  <img src="/himacard.png" height="60%" width="100%" max-width="100%">
-</div>
+| H5C3 Website | Azure | ✓[HomePage](https://happy-ocean-0d2a3c60f.azurestaticapps.net)|
+| Entra SSO | Vercel | ✓[Auth](https://azauthded.vercel.app/login) |
+| E-Store | Vercel | ✓[ISMDED](https://ism-ded.vercel.app/)|
+| PPU-FS | Vercel| ✓[TicketSys](https://ppu-hd-fs.vercel.app/) |
+|Landing Page| Vercel| ✓[ISV](https://infinitesuccessvirtual.vercel.app/)|
