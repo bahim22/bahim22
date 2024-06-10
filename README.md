@@ -10,7 +10,7 @@
 # <img align="center" src="/github-metrics.svg" alt="Metrics" width="400" max-width="100%">
 -->
 
-<img align="center" src="/github-metric.svg" alt="Metrics" width="400" max-width="100%">
+<img align="center" src="/github-metrics.svg" alt="Metrics" width="400" max-width="100%">
 
 ## Recent Projects
 
